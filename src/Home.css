@@ -1,0 +1,91 @@
+.NavBar {
+  display: grid;
+  padding-top: 2rem;
+  /* margin-left: 18rem; */
+  grid-template-columns: 0.3fr 2fr 1fr;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.homeHeading {
+  height: 3rem;
+}
+.homeHeading span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.leftNav {
+  margin-left: 1px;
+}
+.leftNav span:hover {
+  border-bottom: 3px solid #0aa7bd;
+  font-weight: 900;
+
+  color: #0aa7bd;
+  cursor: pointer;
+}
+
+.leftNav span {
+  margin: 14px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.rightNav {
+  text-align: right;
+}
+
+.search {
+}
+
+#root {
+  width: 100vw;
+  text-align: center;
+}
+.banner {
+  height: calc(100vh - 92px);
+  display: flex;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  justify-content: space-around;
+  background-color: #b5d8db;
+  padding-right: 60rem;
+}
+.bn1 {
+  background-color: #006d77;
+  color: white;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  margin-right: 23rem;
+}
+.pcf {
+  padding-bottom: 6rem;
+  max-width: 50rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+}
+.btflex {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-left: 8rem;
+}
+.btn{
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+.btn2{
+    background-color: transparent;
+    color: #006d77;
+    border: 1px solid #006d77;
+    padding: 1rem;
+}
+#imga{
+    position: absolute;
+    margin-left: 15rem;
+    padding-top: 10rem;
+    width: 30rem;
+    
+}

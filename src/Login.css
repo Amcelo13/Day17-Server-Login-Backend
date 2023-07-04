@@ -1,0 +1,136 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b5d8db;
+    height: 100vh;
+    width: 100vw;
+}
+.left_div{
+    width: 65vw;
+    /* padding-bottom: 2rem; */
+}
+.right_div{
+    background-color: white;
+    width: 100vw;
+    border-top-left-radius:3rem;
+    border-bottom-left-radius:3rem;
+}
+#desc{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    line-height: 3.5rem;
+    max-width: 42rem;
+}
+#desc_1{
+    font-weight: 500;
+    font-size:2.5rem;
+}
+.select_class{
+    border: none;
+    outline: none;
+    color: gray;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left:80%;
+    background-color: white;
+}
+.form-start{
+    margin-left: 15rem;
+    margin-top: 3rem;
+    min-width: 70%;
+
+}
+.sign_up_container{
+    display: flex;
+    max-width: 70%;
+   
+
+}
+.google{
+    display: flex;
+    
+    border-radius: 0.5rem;
+    margin-right: 2rem ;
+    width: 50%;
+    place-content: center;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    padding-top: -8px;
+}
+.facebook{
+    display: flex;
+    
+    border-radius: 0.5rem;
+    width: 50%;
+    place-content: center;
+
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+.bhu{
+    padding-left: 0.35rem;
+}
+.or{
+    color: gray;
+    font-size: 1.4rem;
+    text-align:center;
+    margin-left: -16rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+.inp{
+    color: gray;
+    width: 72%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+}
+.btn1{
+    color: white;
+    border: none;
+    background-color: #abcbce;
+    border-radius: 0.5rem;
+    place-content: center;
+    text-align: center;
+    width:72%;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+    outline: none;
+}
+.btn1:hover{
+    outline: none;
+    border: none;
+    background-color: #52a2a9;
+
+}
+.last_class{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1.2rem;
+}
+.fg{
+    color: gray;
+
+}
+#re{
+    color:#abcbce ;
+    background-color: transparent;
+    border: none;
+    margin-left: -3.5rem;
+    padding-left: 4rem;
+}
+
+#re:hover{
+    border: none;
+    outline: none;
+}
